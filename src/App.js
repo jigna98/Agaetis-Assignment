@@ -1,12 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import LoginForm from './Component/LoginForm';
+import AdminComponent from './Component/AdminComponent';
 
-function App() {
+const App = () => {
+  
   return (
-    <div className="App">
-      <div>Hello</div>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<LoginForm />} />
+        <Route path="/admin" element={<AdminComponent />} />
+      </Routes>
+  </Router>
   );
-}
+};
 
 export default App;

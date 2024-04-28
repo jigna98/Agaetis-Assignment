@@ -1,0 +1,150 @@
+
+.admin-container{
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+}
+.title-section{
+    background-color: #282828;
+    height: 300px;
+    padding: 20px;
+    color: #fff;
+}
+.title-section h1 {
+    font-style: italic; 
+    font-size: 40px;
+    font-weight: bold;
+  }
+.admin-header{
+    text-align: center;
+}
+.card{
+    margin-top: 20px;
+    height: 200px;
+}
+.card-img-top{
+    width: 40px;
+    height: 100%;
+}
+.blue-text{
+    color: #1aa3ff;
+}
+.post-header{
+    color: #000;
+    font-weight: bold;
+    
+}
+.design-text{
+    color:  #1aff1a;    
+}
+.date-text{
+    color: #707070;
+}
+.firebase-header{
+    color: #000;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 35px;
+}
+.sample-blog-post h1{
+    font-weight: bold;
+    color: #000;
+    font-size: 50px;
+}
+.sample-blog-post h2{
+    font-weight: bold;
+    color: #000;
+    font-size: 40px;
+}
+.sample-blog-post h3{
+    font-weight: bold;
+    color: #000;
+    font-size: 30px;
+}
+.about-container{
+    background-color: #f3faf9;
+    padding:20px;
+}
+.about-container p{
+   font-weight: 600;
+}
+.elsewhere-container a{
+ color: #1aa3ff !important;;
+ cursor: pointer;
+ display: block;
+}
+.older-btn,
+.newer-btn {
+  background-color: #fff; 
+  color: #afabab!important;
+  border: 2px solid #afabab!important;
+  border-radius: 40px!important; 
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.older-btn:hover,
+.newer-btn:hover { 
+    border: 2px solid #3094db!important;
+    color: #3094db!important;
+    background-color: #fff;
+}
+.buttons-container {
+    margin-top: 20px;
+    margin-bottom: 140px;
+}
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+  }
+  
+  .footer span.text-muted:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 400px) {
+    .title-section h1 {
+        font-size: 25px;
+    }
+    .card-img-top {
+        width: 30px;
+    }
+    .sample-blog-post h1 {
+        font-size: 35px;
+    }
+    .sample-blog-post h2 {
+        font-size: 25px;
+    }
+    .sample-blog-post h3 {
+        font-size: 20px;
+    }
+    .footer {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .title-section h1 {
+        font-size: 50px;
+    }
+    .card-img-top {
+        width: 50px;
+    }
+    .sample-blog-post h1 {
+        font-size: 60px;
+    }
+    .sample-blog-post h2 {
+        font-size: 45px;
+    }
+    .sample-blog-post h3 {
+        font-size: 35px;
+    }
+    .footer {
+        font-size: 16px;
+    }
+}
