@@ -154,15 +154,15 @@ ac, vestibulum at eros.</p>
                <div className="mt-3">
                     <h3 className="firebase-header">Archives</h3>
                     {months.map((month, index) => (
-                        <a key={index}style={{ display: 'block', color: '#1aa3ff',cursor:"pointer" }}>{month}</a>
+                        <a key={index}style={{ display: 'block', color: '#1aa3ff',cursor:"pointer" }}href="#">{month}</a>
                     ))}
                </div>
                 {/* Elsewhere Section */}
                 <div className="elsewhere-container mt-3">
                     <h3 className="firebase-header">Archives</h3>
-                    <a>Github</a>
-                    <a>Twitter</a>
-                    <a>Facebook</a>
+                    <a href="#">Github</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Facebook</a>
                 </div>
             </div>
                  
